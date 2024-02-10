@@ -63,8 +63,8 @@ const SkillSection = () => {
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 mb-14 ">
         {contents.map((content) => (
-          <Reveal>
-            <div className="border-b-2 border-gray-700 p-2 " key={content.id}>
+          <Reveal key={content.id}>
+            <div className="border-b-2 border-gray-700 p-2 ">
               <h2 className="font-helvetica font-semibold text-2xl">
                 {content.title}
               </h2>
