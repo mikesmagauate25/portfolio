@@ -1,6 +1,6 @@
 import Reveal from "@/components/reveal";
 
-const page = () => {
+const Page = () => {
   return (
     <div className="container max-w-[1480px] mx-auto px-2 lg:px-0  min-h-screen">
       <div className="max-w-3xl mx-auto mt-10">
@@ -27,8 +27,9 @@ const page = () => {
               Elevate your brand storytelling and engage customers on a deeper
               level with our Amazon A+ Content creative services. Through
               visually stunning imagery, captivating videos, and compelling
-              copy, we help you convey your brand's unique value proposition and
-              enhance the shopping experience for your customers.
+              copy, we help you convey your brand&apos;s unique value
+              proposition and enhance the shopping experience for your
+              customers.
             </p>
           </div>
         </Reveal>
@@ -68,8 +69,8 @@ const page = () => {
               Web Design and WordPress Development
             </h2>
             <p className="text-gray-700 service-description">
-              Whether you're starting from scratch or looking to revamp your
-              existing website, our web design and WordPress development
+              Whether you&apos;re starting from scratch or looking to revamp
+              your existing website, our web design and WordPress development
               services are tailored to your needs. From responsive design to
               custom functionality and seamless integration with e-commerce
               platforms, we create visually stunning and user-friendly websites
@@ -85,8 +86,8 @@ const page = () => {
             </h2>
             <p className="text-gray-700 service-description">
               Simplify your workflow and ensure accuracy with our reliable data
-              entry services. Whether it's updating product information,
-              managing inventory, or inputting customer data, our team is
+              entry services. Whether it&apos;s updating product information,
+              managing inventory or inputting customer data, our team is
               committed to delivering efficient and error-free results, allowing
               you to focus on growing your business.
             </p>
@@ -97,4 +98,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
