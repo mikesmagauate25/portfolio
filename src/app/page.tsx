@@ -9,7 +9,7 @@ const Home = () => {
         <Reveal>
           <h1
             id="headline"
-            className="font-helvetica font-semibold text-8xl lg:text-9xl text-[#373737]"
+            className="font-helvetica font-bold text-8xl lg:text-9xl text-[#373737]"
           >
             Hi, I`m Mikes Maguate
           </h1>

@@ -1,17 +1,16 @@
+import Form from "@/components/form";
 import Reveal from "@/components/reveal";
 
 const page = () => {
   return (
-    <div className="container max-w-[1480px] mx-auto px-2 lg:px-0  min-h-screen flex flex-col justify-center items-center">
+    <div className="container max-w-[1480px] mx-auto  px-2 lg:px-0  min-h-screen flex flex-col justify-center items-center">
       <Reveal>
-        <p className=" text-8xl lg:text-9xl font-helvetica font-semibold">
-          Want To Reach Out
+        <p className="mt-20 text-7xl lg:text-9xl font-helvetica font-bold text-center">
+          Need My Assistance? lets do it!
         </p>
       </Reveal>
       <Reveal>
-        <p className="font-helvetica text-2xl lg:text-5xl">
-          gmusic002@gmail.com
-        </p>
+        <Form />
       </Reveal>
     </div>
   );

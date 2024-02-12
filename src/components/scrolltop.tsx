@@ -19,7 +19,7 @@ const BackToTopButton: React.FC = () => {
   return (
     <button
       onClick={() => setOnTop(!top)}
-      className="rounded-full bg-white  text-black p-10 hidden lg:block
+      className="rounded-full bg-yellow-300  text-black p-10 hidden lg:block font-helvetica font-semibold
      "
     >
       TOP

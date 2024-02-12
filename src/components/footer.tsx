@@ -55,7 +55,7 @@ const Footer = () => {
           <h2 className="border-white border-b mb-5 uppercase ">
             Social Media
           </h2>
-          <li>facebooke</li>
+          <li>facebook</li>
           <li>instagram</li>
           <li>linked in</li>
         </div>

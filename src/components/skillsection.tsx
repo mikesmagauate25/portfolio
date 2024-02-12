@@ -56,12 +56,12 @@ const SkillSection = () => {
     <section className="container max-w-[1480px] h-auto mx-auto px-2 lg:px-0 flex flex-col justify-center items-start gap-10 ">
       <div className=" mt-20">
         <Reveal>
-          <p className="font-helvetica font-semibold text-6xl lg:text-9xl text-[#373737]">
+          <p className="font-helvetica font-bold text-6xl lg:text-9xl text-[#373737]">
             Competence Collection
           </p>
         </Reveal>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 mb-14 ">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-10 mb-14 mt-20 ">
         {contents.map((content) => (
           <Reveal key={content.id}>
             <div className="border-b-2 border-gray-700 p-2 ">

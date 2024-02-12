@@ -6,12 +6,12 @@ const page = () => {
     <section className="container max-w-[1480px] mx-auto  min-h-screen flex flex-col lg:flex-row gap-10 px-2 lg:px-0 mb-5">
       <div className="flex-1 flex flex-col items-start justify-center">
         <Reveal>
-          <h1 className="font-helvetica text-7xl pt-10 lg:pt-0 lg:text-9xl font-semibold">
-            ABOUT
+          <h1 className="font-helvetica text-7xl pt-10 lg:pt-0 lg:text-9xl font-bold">
+            ABOUT ME
           </h1>
         </Reveal>
         <Reveal>
-          <p className="font-helvetica font-normal text-sm lg:text-lg">
+          <p className="font-helvetica font-normal text-xs lg:text-lg mt-10">
             Welcome! I&apos;m Mikes, your dedicated virtual assistant here to
             lighten your workload and elevate your business to new heights. With
             a passion for organization, efficiency, and problem-solving, I

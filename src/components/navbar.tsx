@@ -53,7 +53,7 @@ const NavBar = () => {
             animate={{ x: 0 }}
             transition={{ duration: 0.5, ease: [0.83, 0, 0.17, 1] }}
             exit={{ x: "100%" }}
-            className="absolute flex flex-col justify-center items-center gap-5 text-4xl bottom-0 top-0 right-0  left-[40%]  bg-yellow-300 list-none font-helvetica  font-medium z-40"
+            className="absolute flex flex-col justify-center items-center gap-5 text-4xl bottom-0 top-0 right-0  left-[40%]  bg-yellow-300 list-none font-helvetica  font-bold z-40"
           >
             {links.map((link, index) => (
               <li key={index}>

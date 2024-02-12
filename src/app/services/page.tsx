@@ -3,10 +3,19 @@ import Reveal from "@/components/reveal";
 const Page = () => {
   return (
     <div className="container max-w-[1480px] mx-auto px-2 lg:px-0  min-h-screen">
-      <div className="max-w-3xl mx-auto mt-10">
+      <Reveal>
+        <div className="mt-20">
+          <p className="font-helvetica font-bold text-9xl">WHAT I DO.</p>
+          <p className="font-helvetica font-semibold text-3xl w-96">
+            My obsession is to deliver a digital experience that not only serves
+            a great purpose, but give your business an unfair advantage.
+          </p>
+        </div>
+      </Reveal>
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 mx-auto mt-10 mb-10 lg:gap-20">
         <Reveal>
-          <div className="bg-white shadow-md rounded-md p-6 mb-6 service">
-            <h2 className="text-xl font-semibold mb-2 service-title">
+          <div className="  mb-6 ">
+            <h2 className="text-3xl font-semibold mb-2">
               Amazon Listing Optimization
             </h2>
             <p className="text-gray-700 service-description">
@@ -19,8 +28,8 @@ const Page = () => {
         </Reveal>
 
         <Reveal>
-          <div className="bg-white shadow-md rounded-md p-6 mb-6 service">
-            <h2 className="text-xl font-semibold mb-2 service-title">
+          <div className="  mb-6">
+            <h2 className="text-3xl font-semibold mb-2">
               Amazon A+ Content Creation
             </h2>
             <p className="text-gray-700 service-description">
@@ -35,8 +44,8 @@ const Page = () => {
         </Reveal>
 
         <Reveal>
-          <div className="bg-white shadow-md rounded-md p-6 mb-6 service">
-            <h2 className="text-xl font-semibold mb-2 service-title">
+          <div className=" mb-6">
+            <h2 className="text-3xl font-semibold mb-2">
               Google Ads Optimization
             </h2>
             <p className="text-gray-700 service-description">
@@ -49,10 +58,8 @@ const Page = () => {
         </Reveal>
 
         <Reveal>
-          <div className="bg-white shadow-md rounded-md p-6 mb-6 service">
-            <h2 className="text-xl font-semibold mb-2 service-title">
-              Amazon Store Design
-            </h2>
+          <div className="  mb-6">
+            <h2 className="text-3xl font-semibold mb-2">Amazon Store Design</h2>
             <p className="text-gray-700 service-description">
               Transform your Amazon store into a captivating and cohesive brand
               experience with our professional store design services. From
@@ -64,8 +71,8 @@ const Page = () => {
         </Reveal>
 
         <Reveal>
-          <div className="bg-white shadow-md rounded-md p-6 mb-6 service">
-            <h2 className="text-xl font-semibold mb-2 service-title">
+          <div className=" mb-6 ">
+            <h2 className="text-3xl font-semibold mb-2">
               Web Design and WordPress Development
             </h2>
             <p className="text-gray-700 service-description">
@@ -80,10 +87,8 @@ const Page = () => {
         </Reveal>
 
         <Reveal>
-          <div className="bg-white shadow-md rounded-md p-6 mb-6 service">
-            <h2 className="text-xl font-semibold mb-2 service-title">
-              Data Entry Services
-            </h2>
+          <div className="  mb-6 ">
+            <h2 className="text-3xl font-semibold mb-2">Data Entry Services</h2>
             <p className="text-gray-700 service-description">
               Simplify your workflow and ensure accuracy with our reliable data
               entry services. Whether it&apos;s updating product information,
