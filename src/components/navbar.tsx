@@ -26,8 +26,16 @@ const NavBar = () => {
         onClick={() => setOpen(!open)}
         className="w-[60px] rounded-full h-[60px] flex flex-col justify-center items-center gap-2 cursor-pointer z-50 lg:hidden bg-gray-200"
       >
-        <div className="w-[40px] h-[3px] bg-black rounded-xl"></div>
-        <div className="w-[40px] h-[3px] bg-black rounded-xl"></div>
+        <div
+          className={`w-[40px] h-[3px] bg-black rounded-xl transition-all duration-300 ease-[cubic-bezier(0.83,0,0.17,1)]  ${
+            open ? "rotate-45 translate-y-2 " : "rotate-0 "
+          }   origin-center`}
+        ></div>
+        <div
+          className={`w-[40px] h-[3px] bg-black rounded-xl transition-all duration-300  ease-[cubic-bezier(0.83,0,0.17,1)]   ${
+            open ? "-rotate-45 -translate-y-0.5" : "rotate-0"
+          }   origin-center`}
+        ></div>
       </div>
 
       <nav className="hidden lg:flex justify-center items-center gap-5 list-none font-helvetica  font-medium">
