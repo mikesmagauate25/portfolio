@@ -35,7 +35,7 @@ const Form = () => {
 
       <div>
         <p className="font-helvetica font-semibold text-3xl">
-          What's the best email to reach you?*
+          Whats the best email to reach you?*
         </p>
         <input
           {...register("email", { required: true })}
@@ -60,7 +60,7 @@ const Form = () => {
         className="w-60 rounded-full h-10 bg-black text-white"
         type="submit"
       >
-        Let's do it
+        Lets do it
       </button>
     </form>
   );
