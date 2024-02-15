@@ -4,6 +4,15 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import LocalTime from "./localtime";
 import BackToTopButton from "./scrolltop";
+import Link from "next/link";
+import StraggerLetters from "./staggerLetters";
+
+const links = [
+  { path: "/", name: "Home" },
+  { path: "/about", name: "About" },
+  { path: "/services", name: "Services" },
+  { path: "/contact", name: "Contact" },
+];
 
 const Footer = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -45,10 +54,13 @@ const Footer = () => {
       <nav className="text-white grid grid-cols-2 lg:grid-cols-3 w-full mt-10 font-helvetica list-none gap-10">
         <div className="w-full">
           <h2 className="border-white border-b mb-5 uppercase ">navigation</h2>
-          <li>home</li>
-          <li>about</li>
-          <li>services</li>
-          <li>contact</li>
+          {links.map((link, index) => (
+            <li key={index}>
+              <Link href={link.path}>
+                <StraggerLetters text={link.name} />
+              </Link>
+            </li>
+          ))}
         </div>
 
         <div className="w-full">

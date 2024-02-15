@@ -11,7 +11,7 @@ const page = () => {
           </h1>
         </Reveal>
         <Reveal>
-          <p className="font-helvetica font-normal text-xs lg:text-lg mt-10">
+          <p className="font-helvetica font-normal text-sm lg:text-lg mt-10">
             Welcome! I&apos;m Mikes, your dedicated virtual assistant here to
             lighten your workload and elevate your business to new heights. With
             a passion for organization, efficiency, and problem-solving, I

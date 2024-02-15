@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { easeInOut, motion, AnimatePresence } from "framer-motion";
+import StraggerLetters from "./staggerLetters";
 
 import { useState } from "react";
 import Curve from "./curve";
@@ -41,7 +42,9 @@ const NavBar = () => {
       <nav className="hidden lg:flex justify-center items-center gap-5 list-none font-helvetica  font-medium">
         {links.map((link, index) => (
           <li key={index}>
-            <Link href={link.path}>{link.name}</Link>
+            <Link href={link.path}>
+              <StraggerLetters text={link.name} />
+            </Link>
           </li>
         ))}
       </nav>
